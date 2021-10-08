@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "ïgnore": [
+        ".git",
+        "node_module"
+    ],
+    "delay": 5000
+}

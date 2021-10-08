@@ -35,5 +35,5 @@ app.get("/", (req,res) => {
 
 
 app.listen(8080, () => {
-    console.log("O Servidor Está rodando!!!")
+    console.log("O Servidor Está rodando!")
 })

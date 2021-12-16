@@ -18,7 +18,7 @@ const logradourosControler = require("./logradouros/Logradouro");
 const pagamentosControler = require("./pagamentos/Pagamento");
 const produtosControler = require("./produtos/Produto");
 const senhasControler = require("./senhas/Senha");
-const usuariosControler = require("./usuarios/Usuario");
+const usuariosControler = require("./usuarios/Usuario")
 
 
 const Article = require("./articles/Article");
@@ -36,7 +36,7 @@ const Logradouro = require("./logradouros/Logradouro");
 const Pagamento = require("./pagamentos/Pagamento");
 const Produto = require("./produtos/Produto");
 const Senha = require("./senhas/Senha");
-const Usuario = require("./usuarios/Usuario");
+const Usuario = require("./usuarios/Usuario")
 
 // View engine
 app.set('view engine', 'ejs');
@@ -63,7 +63,8 @@ connection
 
 app.use("/",categoriesControler);
 app.use("/",articlesControler);
-app.use("/",bairrosControler);
+app.use("/",bairrosControler)
+
 
 
 app.get("/", (req,res) => {

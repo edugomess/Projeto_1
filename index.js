@@ -24,19 +24,19 @@ const usuariosControler = require("./usuarios/Usuario")
 const Article = require("./articles/Article");
 const Category = require("./categories/Category");
 const Bairro = require("./bairros/Bairro");
-const Cargo = require("./cargos/Cargo");
-const Cidade = require("./cidades/Cidade");
-const Cliente = require("./clientes/Cliente");
-const Compra = require("./compras/Compra");
-const Dashboard = require("./dashboard/Dashboard");
-const Estado = require("./estados/Estado");
-const Fornecedor = require("./fornecedores/Fornecedor");
-const Login = require("./login/Login");
-const Logradouro = require("./logradouros/Logradouro");
-const Pagamento = require("./pagamentos/Pagamento");
-const Produto = require("./produtos/Produto");
-const Senha = require("./senhas/Senha");
-const Usuario = require("./usuarios/Usuario")
+//const Cargo = require("./cargos/Cargo");
+//const Cidade = require("./cidades/Cidade");
+//const Cliente = require("./clientes/Cliente");
+//const Compra = require("./compras/Compra");
+//const Dashboard = require("./dashboard/Dashboard");
+//const Estado = require("./estados/Estado");
+//const Fornecedor = require("./fornecedores/Fornecedor");
+//const Login = require("./login/Login");
+//const Logradouro = require("./logradouros/Logradouro");
+//const Pagamento = require("./pagamentos/Pagamento");
+//const Produto = require("./produtos/Produto");
+//const Senha = require("./senhas/Senha");
+//const Usuario = require("./usuarios/Usuario")
 
 // View engine
 app.set('view engine', 'ejs');

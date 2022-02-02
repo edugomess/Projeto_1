@@ -21,9 +21,9 @@ const senhasControler = require("./senhas/Senha");
 const usuariosControler = require("./usuarios/Usuario")
 
 
-const Article = require("./articles/Article");
-const Category = require("./categories/Category");
-const Bairro = require("./bairros/Bairro");
+//const Article = require("./articles/Article");
+//const Category = require("./categories/Category");
+//const Bairro = require("./bairros/Bairro");
 //const Cargo = require("./cargos/Cargo");
 //const Cidade = require("./cidades/Cidade");
 //const Cliente = require("./clientes/Cliente");
